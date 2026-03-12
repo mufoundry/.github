@@ -7,8 +7,10 @@ MuFoundry is a modern software development kit (SDK) for creating MU* (MUD, MUX,
 MU* developers who want to quickly get past the boilerplate of MU* networking and focus on game logic and content. It requires moderate to advanced Python knowledge, depending on design complexity, but every effort is made to be as beginner-friendly as possible. It's worth mentioning that networking and multiplayer games are among the most complicated programming endeavors out there.
 
 ## Major Features
-- **HTTP API**: The **Game** process includes a Hypercorn server running a FastAPI app. This provides a RESTful interface with automated OpenAPI/Swagger documentation. HTTP/2 and HTTP/3 are enabled, with HTTP/3 desired for its ability to transparently reconnect roaming clients.
+- **Powered by Python**: MuFoundry is written in asynchronous Python, a versatile and beginner-friendly programming language.
+- **HTTP API**: The **Game** process includes Hypercorn serving FastAPI. This provides a RESTful interface with OpenAPI/Swagger documentation. HTTP/2 and HTTP/3 are enabled, with HTTP/3 desired for its ability to transparently reconnect roaming clients.
 - **Ultimate Moddability**: The SDK is designed to be as moddable as possible. A rich config system powered by `Dynaconf` defines python paths to load classes from and plugins to load. 99% of a MuFoundy project's capabilities are handled by plugins.
+- **MIT Licensed**: MuFoundry is open source and licensed under the MIT license.
 
 ## Project Structure
 MuFoundry is broken down into three main repositories:
